@@ -1,0 +1,6 @@
+use_frameworks!
+target 'InjectionIIITools_Tests' do
+  pod 'InjectionIIITools', :path => '../'
+  
+  
+end
