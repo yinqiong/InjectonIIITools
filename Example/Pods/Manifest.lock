@@ -1,0 +1,16 @@
+PODS:
+  - InjectionIIITools (0.1.0)
+
+DEPENDENCIES:
+  - InjectionIIITools (from `../`)
+
+EXTERNAL SOURCES:
+  InjectionIIITools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InjectionIIITools: 095d1ddee79dadc3d2caafa93821713da68f1b03
+
+PODFILE CHECKSUM: aaece89184fef489250d84b89fdee98e11b2f95d
+
+COCOAPODS: 1.10.1

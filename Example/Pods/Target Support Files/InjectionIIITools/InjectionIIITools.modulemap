@@ -1,0 +1,6 @@
+framework module InjectionIIITools {
+  umbrella header "InjectionIIITools-umbrella.h"
+
+  export *
+  module * { export * }
+}

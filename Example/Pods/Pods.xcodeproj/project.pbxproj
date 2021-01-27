@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CD81A260106E43B8DE0D304AD145566 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BE635029F3505418297B56758D259F /* ReplaceMe.m */; };
+		6973F9ABED7AC85000FA4F17064F881F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8BE9D2E72890E0A876905F8475E967F2 /* Pods-InjectionIIITools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA14B4F01BC5E29CB8A0E263872943E1 /* Pods-InjectionIIITools_Tests-dummy.m */; };
+		94BC53202AE378FA6728B992CAFF49F9 /* Pods-InjectionIIITools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B39B8F90840C89D70E1BB64BA1AF2D /* Pods-InjectionIIITools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B81E2BDB1D441C75D1C8939A324F7489 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BA3710604CF46D1AA74EC8B7CDD7A708 /* InjectionIIITools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD8B45103476BD5B96FD46A0B1B486 /* InjectionIIITools-dummy.m */; };
+		BFCF740540DC8B0EFAC3E1F27486C913 /* InjectionIIITools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC65FCEBBE8233FCBD08CD280814011 /* InjectionIIITools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D051646858FA001A9FD5CB30551E355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80DD4EAB330B8175C1FB28F58B3B8B7;
+			remoteInfo = InjectionIIITools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A19BBB0F2D71719B882CCB3D2698CE /* InjectionIIITools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InjectionIIITools.release.xcconfig; sourceTree = "<group>"; };
+		08EA772914C6688273817F75D90DD717 /* InjectionIIITools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InjectionIIITools.modulemap; sourceTree = "<group>"; };
+		18D635AB7DD894DF39DC865CF7367526 /* InjectionIIITools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InjectionIIITools.framework; path = InjectionIIITools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19697CF4E5D535489E2BCD4DBB099304 /* InjectionIIITools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InjectionIIITools.debug.xcconfig; sourceTree = "<group>"; };
+		37FDFD7C8E11E983F54D00CEED88E47B /* InjectionIIITools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = InjectionIIITools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		61621330A1675FDB0DDD0267070F979E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		69DD698943791D5A613A17D2985D62B8 /* Pods-InjectionIIITools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InjectionIIITools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B15FFF060AFFBFBD2FCFD2D3F22397D /* InjectionIIITools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InjectionIIITools-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		81BE635029F3505418297B56758D259F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = InjectionIIITools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		85618C929BED05283DD8D60902AEF219 /* Pods-InjectionIIITools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InjectionIIITools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8633A41E964C1B9878AA4166EF19ACAC /* Pods-InjectionIIITools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InjectionIIITools_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8917A0CBFB3B6DDE9BD9CAF6C5A06798 /* Pods_InjectionIIITools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InjectionIIITools_Tests.framework; path = "Pods-InjectionIIITools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E42CF516379A8AF1A58F6498A476922 /* InjectionIIITools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InjectionIIITools-Info.plist"; sourceTree = "<group>"; };
+		B6439E500DC920AB3FC2D3D6176E38E9 /* Pods-InjectionIIITools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InjectionIIITools_Tests-Info.plist"; sourceTree = "<group>"; };
+		CCC65FCEBBE8233FCBD08CD280814011 /* InjectionIIITools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InjectionIIITools-umbrella.h"; sourceTree = "<group>"; };
+		E7B39B8F90840C89D70E1BB64BA1AF2D /* Pods-InjectionIIITools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InjectionIIITools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EA4B4298C05D44CB7ADB7B0F3F1A2D38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F1BD8B45103476BD5B96FD46A0B1B486 /* InjectionIIITools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InjectionIIITools-dummy.m"; sourceTree = "<group>"; };
+		F51AE174872CEDD891D11DE76DFA7B8B /* Pods-InjectionIIITools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InjectionIIITools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7606C1802201F638FBBC4A1B1186DDE /* Pods-InjectionIIITools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InjectionIIITools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F900AE8225635D9AFDC4B1E69117FB87 /* Pods-InjectionIIITools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InjectionIIITools_Tests.modulemap"; sourceTree = "<group>"; };
+		FA14B4F01BC5E29CB8A0E263872943E1 /* Pods-InjectionIIITools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InjectionIIITools_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E73564D67FE435AA3B313B8601DB2CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81E2BDB1D441C75D1C8939A324F7489 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA78E87C8D66540F3DD4FD95B2AEF611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6973F9ABED7AC85000FA4F17064F881F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11950AE39F2CA399FDCD0C32D6ACD121 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC95107D26638BE659BBBFC3BB6F2A0C /* InjectionIIITools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		141BE7AD210B4C1049F1B3F9CAE8DD6A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				37FDFD7C8E11E983F54D00CEED88E47B /* InjectionIIITools.podspec */,
+				61621330A1675FDB0DDD0267070F979E /* LICENSE */,
+				EA4B4298C05D44CB7ADB7B0F3F1A2D38 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		472B02EE8CEDEEF1EC92334086B5FDFD /* Pods-InjectionIIITools_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F900AE8225635D9AFDC4B1E69117FB87 /* Pods-InjectionIIITools_Tests.modulemap */,
+				F7606C1802201F638FBBC4A1B1186DDE /* Pods-InjectionIIITools_Tests-acknowledgements.markdown */,
+				69DD698943791D5A613A17D2985D62B8 /* Pods-InjectionIIITools_Tests-acknowledgements.plist */,
+				FA14B4F01BC5E29CB8A0E263872943E1 /* Pods-InjectionIIITools_Tests-dummy.m */,
+				8633A41E964C1B9878AA4166EF19ACAC /* Pods-InjectionIIITools_Tests-frameworks.sh */,
+				B6439E500DC920AB3FC2D3D6176E38E9 /* Pods-InjectionIIITools_Tests-Info.plist */,
+				E7B39B8F90840C89D70E1BB64BA1AF2D /* Pods-InjectionIIITools_Tests-umbrella.h */,
+				F51AE174872CEDD891D11DE76DFA7B8B /* Pods-InjectionIIITools_Tests.debug.xcconfig */,
+				85618C929BED05283DD8D60902AEF219 /* Pods-InjectionIIITools_Tests.release.xcconfig */,
+			);
+			name = "Pods-InjectionIIITools_Tests";
+			path = "Target Support Files/Pods-InjectionIIITools_Tests";
+			sourceTree = "<group>";
+		};
+		4A8970AA525A0F9D9EAB55FC1B23EC55 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				472B02EE8CEDEEF1EC92334086B5FDFD /* Pods-InjectionIIITools_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		95549A66F01E230CC616F823E0A96613 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08EA772914C6688273817F75D90DD717 /* InjectionIIITools.modulemap */,
+				F1BD8B45103476BD5B96FD46A0B1B486 /* InjectionIIITools-dummy.m */,
+				9E42CF516379A8AF1A58F6498A476922 /* InjectionIIITools-Info.plist */,
+				6B15FFF060AFFBFBD2FCFD2D3F22397D /* InjectionIIITools-prefix.pch */,
+				CCC65FCEBBE8233FCBD08CD280814011 /* InjectionIIITools-umbrella.h */,
+				19697CF4E5D535489E2BCD4DBB099304 /* InjectionIIITools.debug.xcconfig */,
+				06A19BBB0F2D71719B882CCB3D2698CE /* InjectionIIITools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/InjectionIIITools";
+			sourceTree = "<group>";
+		};
+		CC95107D26638BE659BBBFC3BB6F2A0C /* InjectionIIITools */ = {
+			isa = PBXGroup;
+			children = (
+				81BE635029F3505418297B56758D259F /* ReplaceMe.m */,
+				141BE7AD210B4C1049F1B3F9CAE8DD6A /* Pod */,
+				95549A66F01E230CC616F823E0A96613 /* Support Files */,
+			);
+			name = InjectionIIITools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				11950AE39F2CA399FDCD0C32D6ACD121 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EEF36980F4A3FE0D8371726333AE5CD1 /* Products */,
+				4A8970AA525A0F9D9EAB55FC1B23EC55 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEF36980F4A3FE0D8371726333AE5CD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D635AB7DD894DF39DC865CF7367526 /* InjectionIIITools.framework */,
+				8917A0CBFB3B6DDE9BD9CAF6C5A06798 /* Pods_InjectionIIITools_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58467668712DFF7E41DD51BEC5C18A65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BC53202AE378FA6728B992CAFF49F9 /* Pods-InjectionIIITools_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6086A28574BCA5EBB35DC0E7FB554D55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCF740540DC8B0EFAC3E1F27486C913 /* InjectionIIITools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CBC8984411D14BFF8EB9A5A3EA1A4EDF /* Pods-InjectionIIITools_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A10E33FFEAB623794CA22125056D48E /* Build configuration list for PBXNativeTarget "Pods-InjectionIIITools_Tests" */;
+			buildPhases = (
+				58467668712DFF7E41DD51BEC5C18A65 /* Headers */,
+				307B9EC96C789A205D4EADD597E16290 /* Sources */,
+				CA78E87C8D66540F3DD4FD95B2AEF611 /* Frameworks */,
+				32CD3E3E334E35CFA8BAACB07BC6C947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F1C85DC4B3EEFC6BC455C283C51F34 /* PBXTargetDependency */,
+			);
+			name = "Pods-InjectionIIITools_Tests";
+			productName = "Pods-InjectionIIITools_Tests";
+			productReference = 8917A0CBFB3B6DDE9BD9CAF6C5A06798 /* Pods_InjectionIIITools_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F80DD4EAB330B8175C1FB28F58B3B8B7 /* InjectionIIITools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC6A42F07C1AE71730221329B49939B /* Build configuration list for PBXNativeTarget "InjectionIIITools" */;
+			buildPhases = (
+				6086A28574BCA5EBB35DC0E7FB554D55 /* Headers */,
+				D523C0AB83DFD3F9D1DC800FE43C0754 /* Sources */,
+				9E73564D67FE435AA3B313B8601DB2CB /* Frameworks */,
+				F0917DEB6DA4DFC7A078F084390B7E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InjectionIIITools;
+			productName = InjectionIIITools;
+			productReference = 18D635AB7DD894DF39DC865CF7367526 /* InjectionIIITools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EEF36980F4A3FE0D8371726333AE5CD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80DD4EAB330B8175C1FB28F58B3B8B7 /* InjectionIIITools */,
+				CBC8984411D14BFF8EB9A5A3EA1A4EDF /* Pods-InjectionIIITools_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32CD3E3E334E35CFA8BAACB07BC6C947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0917DEB6DA4DFC7A078F084390B7E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		307B9EC96C789A205D4EADD597E16290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE9D2E72890E0A876905F8475E967F2 /* Pods-InjectionIIITools_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D523C0AB83DFD3F9D1DC800FE43C0754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3710604CF46D1AA74EC8B7CDD7A708 /* InjectionIIITools-dummy.m in Sources */,
+				4CD81A260106E43B8DE0D304AD145566 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2F1C85DC4B3EEFC6BC455C283C51F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InjectionIIITools;
+			target = F80DD4EAB330B8175C1FB28F58B3B8B7 /* InjectionIIITools */;
+			targetProxy = 4D051646858FA001A9FD5CB30551E355 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		56D2E100636AB12516B6F6E3EF459E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19697CF4E5D535489E2BCD4DBB099304 /* InjectionIIITools.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InjectionIIITools/InjectionIIITools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InjectionIIITools/InjectionIIITools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InjectionIIITools/InjectionIIITools.modulemap";
+				PRODUCT_MODULE_NAME = InjectionIIITools;
+				PRODUCT_NAME = InjectionIIITools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8BBFB37BE4DF2CAEF7FA5C80AF99CE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85618C929BED05283DD8D60902AEF219 /* Pods-InjectionIIITools_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InjectionIIITools_Tests/Pods-InjectionIIITools_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InjectionIIITools_Tests/Pods-InjectionIIITools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B46343DC4F8F9BD300507B49752D879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A19BBB0F2D71719B882CCB3D2698CE /* InjectionIIITools.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/InjectionIIITools/InjectionIIITools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InjectionIIITools/InjectionIIITools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InjectionIIITools/InjectionIIITools.modulemap";
+				PRODUCT_MODULE_NAME = InjectionIIITools;
+				PRODUCT_NAME = InjectionIIITools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCFBF9E33F5FF6CB6FC07CDEC1890616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51AE174872CEDD891D11DE76DFA7B8B /* Pods-InjectionIIITools_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InjectionIIITools_Tests/Pods-InjectionIIITools_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InjectionIIITools_Tests/Pods-InjectionIIITools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A10E33FFEAB623794CA22125056D48E /* Build configuration list for PBXNativeTarget "Pods-InjectionIIITools_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFBF9E33F5FF6CB6FC07CDEC1890616 /* Debug */,
+				8BBFB37BE4DF2CAEF7FA5C80AF99CE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC6A42F07C1AE71730221329B49939B /* Build configuration list for PBXNativeTarget "InjectionIIITools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D2E100636AB12516B6F6E3EF459E71 /* Debug */,
+				9B46343DC4F8F9BD300507B49752D879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
