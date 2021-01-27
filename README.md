@@ -38,30 +38,10 @@ App Store链接： [ https://itunes.apple.com/cn/app/injectioniii/id1380446739?m
 注意：InjectionIII 的File Watcher选项要保持选中状态。
 
 ### 3、导入配置文件
-这步我简单写了一个配置文件，直接 [GitHub](https://github.com/ZHSY/InjectionIIIHelper)下载 导入项目即可。
-如果你比较反感下载文件也可以自己处理：
-1.设置AppDelegate.m
-打开你的源码，在AppDelegate.m的didFinishLaunchingWithOptions方法添加一行代码：
+使用 CocoaPods 集成
 ```
-#if DEBUG
-// iOS
-[[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection10.bundle"] load];
-// tvOS
-//[[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/tvOSInjection.bundle"] load];
-// macOS
-//[[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/macOSInjection.bundle"] load];
-#endif
-```
-2.设置ViewController
-在需要修改界面的ViewController添加方法- (void)injected，或者给ViewController类扩展添加方法- (void)injected。
-所有修改控件的代码都写在这里面。
-```
-- (void)injected
-{    
-//自定义修改...
-//重新加载view    
-[self viewDidLoad];
-}
+pod '~> InjectionIIITools'
+
 ```
 ### 4、启动项目，修改验证
 在Xcode Command+R运行项目 ，看到Injection connected 提示即表示配置成功。
